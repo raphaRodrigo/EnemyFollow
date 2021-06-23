@@ -469,8 +469,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerCaught","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerCaught","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Target","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 380815980}
 --- !u!58 &1940831469
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -486,7 +487,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 3
 --- !u!212 &1940831470
 SpriteRenderer:
   m_ObjectHideFlags: 0
