@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Boundaries","value":{"xMin":-8.68,"yMin":-4.75,"xMax":8.68,"yMax":4.75,"$type":"UnityEngine.Rect"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!50 &380815985
 Rigidbody2D:
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Boundaries","value":{"xMin":-8.68,"yMin":-4.75,"xMax":8.68,"yMax":4.75,"$type":"UnityEngine.Rect"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Boundaries","value":{"xMin":-8.68,"yMin":-4.75,"xMax":8.68,"yMax":4.75,"$type":"UnityEngine.Rect"},"$version":"A"},{"name":"TouchCount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1539670883
 Transform:
